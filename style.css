@@ -33,7 +33,7 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  border-bottom: 2px solid #8e8e93;
+  border-bottom: 1px solid #8e8e93;
   background: #161616;
   padding: 14px 34px;
 }
@@ -597,4 +597,5 @@ ul {
   border-top: 1px solid #8e8e93;
   margin-top: 5px;
 }
+
 
