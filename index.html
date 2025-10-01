@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SooMe -> Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header id="head">
+        <img src="images/logo.svg" alt="logo" />
+        <ul>
+          <li><a class="headerA" href="#home">Home</a></li>
+          <li><a class="headerA" href="#products-wrap">Products</a></li>
+          <li><a class="headerA" href="#features">Features</a></li>
+          <li><a class="headerA" href="#support">Support</a></li>
+        </ul>
+        <span id="sign">
+          <!-- <button class="btn" id="login">Log In</button>
+          <button class="btn" id="signup">Sign Up</button> -->
+          <button class="btn" id="signup" onclick="window.open('https://forms.zohopublic.in/soomespaceaigm1/form/ContactUs/formperma/iDMUY416SXCT-CG3TZVdDQc8n75W0HSFvwv7bHK0bhQ')">Coming Soon!</button>
+        </span>
+      </header>
+      <section id="home">
+        <img
+          src="images/homeBack.jpg"
+          alt="Home-Background"
+          class="background-img"
+        />
+        <div class="foreground">
+          <h2>Your <mark>Soome</mark>cial Universe, Reimagined</h2>
+          <p>
+            Discover Sunshine, Wave and Breeze. Three unique ways to connect,
+            share and experience what's new.
+          </p>
+          <button
+            onclick="document.getElementById('products-wrap').scrollIntoView({behavior: 'smooth'});"
+            class="btn"
+            id="explore-btn"
+          >
+            Explore Products
+          </button>
+        </div>
+      </section>
+      <!-- <section id="products">
+        <h2>Meet Our Products</h2>
+        <p>
+          Each of our products is designed to bring you a unique
+          <mark>Soome</mark>cial experience. Find the one that's right for you.
+        </p>
+        <div class="container">
+          <div class="cards">
+            <div class="card" id="sunshine">
+              <img
+                src="images/sunshine.png"
+                alt="sunshine"
+                class="product-icon"
+              />
+              <span>Sunshine</span>
+            </div>
+            <div class="card" id="wave">
+              <img src="images/wave.png" alt="wave" class="product-icon" />
+              <span>Wave</span>
+            </div>
+            <div class="card" id="breeze">
+              <img src="images/breeze.png" alt="breeze" class="product-icon" />
+              <span>Breeze</span>
+            </div>
+          </div>
+          <div class="summary-section">
+            <div class="summary sunshine-theme" id="summaryCard">
+              <img
+                src="images/product1.png"
+                alt="Sunshine"
+                class="summary-image"
+              />
+              <div class="summary-content">
+                <div class="summary-text">
+                  <span class="summary-title">Sunshine:</span>
+                  Brighten your day with a feed of positive news and uplifting
+                  content. Focus on what truly matters.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <section class="products-wrap" id="products-wrap">
+        <h2 class="products-heading">Meet Our Products</h2>
+        <p class="products-subheading">
+          Each of our products is designed to bring you a unique
+          <span class="soomecial-accent">Soome</span>cial experience. Find the
+          one that's right for you.
+        </p>
+        <div class="products-row">
+          <div class="product-card product-sunshine">
+            <img src="images/sunshine.png" alt="" class="images">
+            <h3 class="product-title">Sunshine</h3>
+            <p class="product-desc">
+              Brighten your day with a feed of positive news and uplifting
+              content. Focus on what truly matters.
+            </p>
+          </div>
+          <div class="product-card product-wave">
+            <img src="images/wave.png" alt="" class="images">
+            <h3 class="product-title">Wave</h3>
+            <p class="product-desc">
+              Ride the wave of real-time conversations. Tune into live audio
+              rooms and connect with voices from around the world.
+            </p>
+          </div>
+          <div class="product-card product-breeze">
+            <img src="images/breeze.png" alt="" class="images">
+            <h3 class="product-title">Breeze</h3>
+            <p class="product-desc">
+              A breath of fresh air for your social life. Share ephemeral
+              stories and moments with a close circle of friends.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="features">
+        <h2 class="features-heading">Latest Updates & Features</h2>
+        <p class="features-subheading">
+          We're constantly improving. Here's what's new across our products.
+        </p>
+        <div class="featureCards">
+          <div class="featureCard">
+            <div class="feature-img-placeholder sunshine-img"></div>
+            <div class="feature-text">
+              <span class="feature-product feature-product-sunshine">Sunshine</span>
+              <h3 class="feature-title">New 'Gratitude Journals'</h3>
+              <p class="feature-desc">
+                A private space to reflect on the good things in life, now
+                available in Sunshine.
+              </p>
+            </div>
+          </div>
+          <div class="featureCard">
+            <div class="feature-img-placeholder wave-img"></div>
+            <div class="feature-text">
+              <span class="feature-product feature-product-wave">Wave</span>
+              <h3 class="feature-title">Enhanced Audio Quality</h3>
+              <p class="feature-desc">
+                We've upgraded our servers for crystal-clear, low-latency audio
+                in all Wave rooms.
+              </p>
+            </div>
+          </div>
+          <div class="featureCard">
+            <div class="feature-img-placeholder breeze-img"></div>
+            <div class="feature-text">
+              <span class="feature-product feature-product-breeze">Breeze</span>
+              <h3 class="feature-title">Interactive Story Polls</h3>
+              <p class="feature-desc">
+                Engage your friends in a fun new way. Add polls and quizzes
+                directly to your Breeze stories.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="support">
+        <h2>Ready to Find Your Vibe?</h2>
+        <button class="btn" onclick="window.open('https://forms.zohopublic.in/soomespaceaigm1/form/ContactUs/formperma/iDMUY416SXCT-CG3TZVdDQc8n75W0HSFvwv7bHK0bhQ')">Coming Soon!</button>
+      </section>
+      <footer id="foot">
+        <section class="policy">
+          <ul>
+            <li><a class="headerA" href="https://forms.zohopublic.in/soomespaceaigm1/form/ContactUs/formperma/iDMUY416SXCT-CG3TZVdDQc8n75W0HSFvwv7bHK0bhQ">Contact</a></li>
+            <li><a class="headerA" href="#">Privacy Policy</a></li>
+            <li><a class="headerA" href="#">Terms of Services</a></li>
+          </ul>
+        </section>
+        <section class="socialMedia">
+          <a href="https://www.linkedin.com/company/soome-ai/" target="_blank">Linked In</a>
+          <a href="https://x.com/soome_ai" target="_blank">X</a>
+          <a href="#">Discord</a>
+          
+        </section>
+        <section class="copyRights">
+          &copy 2025 Soome. All rights reserved.
+        </section>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
